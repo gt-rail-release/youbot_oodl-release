@@ -1,0 +1,12 @@
+Source: ros-groovy-youbot-oodl
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), libeigen3-dev, ros-groovy-actionlib, ros-groovy-brics-actuator, ros-groovy-catkin, ros-groovy-control-msgs, ros-groovy-diagnostic-msgs, ros-groovy-message-generation, ros-groovy-nav-msgs, ros-groovy-orocos-kdl, ros-groovy-roscpp, ros-groovy-std-msgs, ros-groovy-std-srvs, ros-groovy-tf, ros-groovy-youbot-driver
+Homepage: http://ros.org/wiki/youbot_oodl
+Standards-Version: 3.9.2
+
+Package: ros-groovy-youbot-oodl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcap2-bin, libeigen3-dev, ros-groovy-actionlib, ros-groovy-brics-actuator, ros-groovy-control-msgs, ros-groovy-diagnostic-msgs, ros-groovy-message-runtime, ros-groovy-nav-msgs, ros-groovy-orocos-kdl, ros-groovy-roscpp, ros-groovy-std-msgs, ros-groovy-std-srvs, ros-groovy-tf, ros-groovy-youbot-driver
+Description: ROS Wrapper for the KUKA youBot Driver
