@@ -15,10 +15,7 @@ install:
   - rosdep update 
   - mkdir -p /tmp/ws/src
   - ln -s `pwd` /tmp/ws/src/youbot_oodl
-  - cd /tmp/ws/src
-  - sudo apt-get install git
-  - git clone https://github.com/WPI-RAIL/youbot_driver.git
-  - cd ../
+  - cd /tmp/ws
   - rosdep install --from-paths src --ignore-src --rosdistro groovy -y
 
 script:
